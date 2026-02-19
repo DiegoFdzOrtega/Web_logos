@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sindicación de Logos Multiidioma | Terminal v2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Un pequeño ajuste extra para que los botones se vean bien */
+        .lang-switcher {
+            margin: 20px;
+            padding: 10px;
+            background: rgba(255,255,255,0.1);
+            display: inline-block;
+            border-radius: 8px;
+        }
+        button {
+            cursor: pointer;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-es { background: #ffcc00; color: #000; }
+        .btn-en { background: #0052cc; color: #fff; }
+        button:hover { opacity: 0.8; transform: scale(1.05); }
+    </style>
+</head>
+<body class="show-es">
+
+    <header>
+        <div class="lang-switcher">
+            <button class="btn-es" onclick="changeLang('es')">ESPAÑOL</button>
+            <button class="btn-en" onclick="changeLang('en')">ENGLISH</button>
+        </div>
+        
+        <h1 class="lang-es">Galería de Logos Industriales</h1>
+        <h1 class="lang-en">Industrial Logo Gallery</h1>
+        <p class="lang-es">Gestión de identidad visual v2.0</p>
+        <p class="lang-en">Visual identity management v2.0</p>
+    </header>
+
+    <main class="grid-logos">
+        <article class="card">
+            <div class="logo-container">
+                <img src="img/1.jpg" alt="Logo 1">
+            </div>
+            <div class="info">
+                <h3 class="lang-es">Identidad 1</h3>
+                <h3 class="lang-en">Identity 1</h3>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="logo-container">
+                <img src="img/2.jpg" alt="Logo 2">
+            </div>
+            <div class="info">
+                <h3 class="lang-es">Identidad 2</h3>
+                <h3 class="lang-en">Identity 2</h3>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="logo-container">
+                <img src="img/3.jpg" alt="Logo 3">
+            </div>
+            <div class="info">
+                <h3 class="lang-es">Identidad 3</h3>
+                <h3 class="lang-en">Identity 3</h3>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="logo-container">
+                <img src="img/4.jpg" alt="Logo 4">
+            </div>
+            <div class="info">
+                <h3 class="lang-es">Identidad 4</h3>
+                <h3 class="lang-en">Identity 4</h3>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="logo-container">
+                <img src="img/5.png" alt="Logo 5">
+            </div>
+            <div class="info">
+                <h3 class="lang-es">Identidad 5</h3>
+                <h3 class="lang-en">Identity 5</h3>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Diego - DAM1 | Proyecto Lenguaje de Marcas</p>
+        <a href="novedades.rss" style="color: #ff6600; text-decoration: none; font-weight: bold;">Sindicación RSS 📡</a>
+    </footer>
+
+    <script>
+        function changeLang(lang) {
+            if (lang === 'es') {
+                document.body.className = 'show-es';
+                document.documentElement.lang = 'es';
+            } else {
+                document.body.className = 'show-en';
+                document.documentElement.lang = 'en';
+            }
+        }
+    </script>
+</body>
+</html>

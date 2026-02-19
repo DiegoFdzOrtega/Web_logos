@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Novedades Logo Gallery</title>
+    <link>https://diegofdzortega.github.io/LogoGallery/</link>
+    <description>Nuevos logos añadidos a la colección multiidioma</description>
+    <item>
+      <title>Nuevo Logo: Nike</title>
+      <link>https://diegofdzortega.github.io/LogoGallery/nike</link>
+      <description>Se ha añadido el isotipo de Nike con descripciones en ES y EN.</description>
+    </item>
+  </channel>
+</rss>

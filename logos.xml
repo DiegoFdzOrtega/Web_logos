@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<galeria>
+    <logo id="1">
+        <archivo>1.svg</archivo>
+        <nombre lang="es">Logo Uno</nombre>
+        <nombre lang="en">Logo One</nombre>
+    </logo>
+    <logo id="2">
+        <archivo>2.svg</archivo>
+        <nombre lang="es">Logo Dos</nombre>
+        <nombre lang="en">Logo Two</nombre>
+    </logo>
+    <logo id="3">
+        <archivo>3.svg</archivo>
+        <nombre lang="es">Logo Tres</nombre>
+        <nombre lang="en">Logo Three</nombre>
+    </logo>
+    <logo id="4">
+        <archivo>4.svg</archivo>
+        <nombre lang="es">Logo Cuatro</nombre>
+        <nombre lang="en">Logo Four</nombre>
+    </logo>
+    <logo id="5">
+        <archivo>5.svg</archivo>
+        <nombre lang="es">Logo Cinco</nombre>
+        <nombre lang="en">Logo Five</nombre>
+    </logo>
+</galeria>
