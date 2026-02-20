@@ -1,8 +1,3 @@
-Para que tu proyecto de Galería de Logos Multiidioma luzca profesional en GitHub y el profesor te ponga el 10, el README.md tiene que explicar no solo qué hace la web, sino qué tecnologías de Lenguaje de Marcas estás usando.
-
-Aquí tienes el código completo para tu archivo README.md. Solo tienes que copiarlo y pegarlo:
-
-Markdown
 # 🌍 Multi-Language Logo Gallery v2.0
 
 Este proyecto es una plataforma interactiva de gestión de identidades visuales desarrollada para el módulo de **Lenguajes de Marcas**. Implementa un sistema de internacionalización nativo y una interfaz basada en estética de terminal industrial.
